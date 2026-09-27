@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ZineIt brand -->
+    <color name="ic_launcher_background">#1A1A1A</color>
+    <color name="colorPrimary">#1A1A1A</color>
+    <color name="colorPrimaryDark">#1A1A1A</color>
+    <color name="colorAccent">#FFC43D</color>
+    <color name="splash_background">#1A1A1A</color>
+</resources>

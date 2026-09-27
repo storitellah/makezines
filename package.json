@@ -1,0 +1,19 @@
+{
+  "name": "zineit",
+  "version": "4.1.0",
+  "private": true,
+  "description": "ZineIt by Storitellah — a local-first zine and photobook layout tool for photojournalists.",
+  "scripts": {
+    "www": "mkdir -p www && cp index.html manifest.webmanifest sw.js favicon.ico favicon.svg apple-touch-icon.png icon-192.png icon-512.png www/",
+    "android:sync": "npm run www && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:debug": "npm run android:sync && cd android && ./gradlew assembleDebug",
+    "android:release": "npm run android:sync && cd android && ./gradlew bundleRelease assembleRelease",
+    "test": "cd tests && node run-tests.js"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}

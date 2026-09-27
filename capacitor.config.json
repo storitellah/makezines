@@ -1,0 +1,7 @@
+{
+  "appId": "com.storitellah.zineit",
+  "appName": "ZineIt",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}
