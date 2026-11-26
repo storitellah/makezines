@@ -1,0 +1,5 @@
+# makezines.pages.dev has moved to zineit.app, the current MakeZines.
+# The service worker is served as-is so copies installed from this address
+# can remove themselves; everything else redirects, keeping the path.
+/sw.js  /sw.js  200
+/*      https://zineit.app/:splat  301

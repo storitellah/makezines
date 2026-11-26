@@ -1,3 +1,5 @@
+> **Moved.** makezines.pages.dev now redirects to [zineit.app](https://zineit.app), which runs the current MakeZines from the [zineit](https://github.com/storitellah/zineit) repository. This repository is kept for its history.
+
 <p align="center">
   <img src="logo.png" width="120" alt="MakeZines — the MZ mark">
 </p>
